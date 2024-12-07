@@ -5,12 +5,43 @@ h2 {color: white;}
 p {color: white}
 a {text-decoration: none; color:white}
 
-.container img{
-  float:left;
+/* .container img{
+  float: left;
   padding-left: 100px;
   padding-bottom: 30px;
 }
 .container text{
-  text-align: justify;
-  font-family: verdana;
+  text-align: right;
+  padding-left: 30px;
+  padding-right: 30x;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 20px; 
+}
+*/
+
+.container {
+  display: flex; /* Makes the image and text align side by side */
+  flex-direction: row; /* Ensures the text is on the right of the image */
+  align-items: center; /* Aligns image and text vertically in the center */
+  padding: 20px;
+  margin-bottom: 20px; /* Adds spacing between containers */
+}
+
+.container img {
+  width: 150px; /* Adjust to your desired image size */
+  height: auto; /* Maintains aspect ratio */
+  margin-right: 20px; /* Adds space between the image and text */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column; /* Stacks the heading and paragraph vertically */
+  justify-content: center; /* Aligns text vertically relative to the image */
+}
+
+a:active {
+  color: red;
 }
