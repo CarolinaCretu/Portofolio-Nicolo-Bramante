@@ -4,6 +4,7 @@ h1 {color: white;}
 h2 {color: white;}
 p {color: white}
 a {text-decoration: none; color:white}
+/* img {max-width: 100%; max-height:100%;} */
 
 /* .container img{
   float: left;
@@ -28,6 +29,7 @@ a {text-decoration: none; color:white}
   align-items: center; /* Aligns image and text vertically in the center */
   padding: 20px;
   margin-bottom: 20px; /* Adds spacing between containers */
+  flex-wrap: nowrap;
 }
 
 .container img {
@@ -39,7 +41,6 @@ a {text-decoration: none; color:white}
 .text-container {
   display: flex;
   flex-direction: column; /* Stacks the heading and paragraph vertically */
-  justify-content: center; /* Aligns text vertically relative to the image */
 }
 
 a:active {
