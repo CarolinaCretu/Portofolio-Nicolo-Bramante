@@ -24,6 +24,7 @@ a {text-decoration: none; color:white}
 */
 
 .container {
+  max-width: 55%;
   display: flex; /* Makes the image and text align side by side */
   flex-direction: row; /* Ensures the text is on the right of the image */
   align-items: center; /* Aligns image and text vertically in the center */
@@ -33,9 +34,9 @@ a {text-decoration: none; color:white}
 }
 
 .container img {
-  width: 150px; /* Adjust to your desired image size */
-  height: auto; /* Maintains aspect ratio */
-  margin-right: 20px; /* Adds space between the image and text */
+ 
+  margin-right: 10px; /* Adds space between the image and text */
+  display: block
 }
 
 .text-container {
