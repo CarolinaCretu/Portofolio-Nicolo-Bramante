@@ -17,7 +17,6 @@ a:active {color: red;}
 }
 
 .container img {
- 
   margin-right: 20px; /* Adds space between the image and text */
   display: block
 }
@@ -26,3 +25,15 @@ a:active {color: red;}
   display: flex;
   flex-direction: column; /* Stacks the heading and paragraph vertically */
 }
+
+.header-container{
+  display: flex;
+  margin: 20px auto;
+  width: 100%;
+  }
+  .header-text{
+    align-self: flex-end;
+    text-wrap: nowrap;
+    margin-right: 20px;
+    margin-bottom: -20px;
+  }
